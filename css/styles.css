@@ -1,0 +1,86 @@
+.jumbotron {
+    position: relative;
+}
+
+.jumbotron .btn {
+    width: 100%;
+}
+
+.page-header .btn {
+    width:50px;
+    text-align: center;
+}
+blockquote {
+    display: none;
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote.visible {
+    display: block;
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote .author {
+    text-align: right;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.member {
+    margin: 15px 0;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.member .header {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-radius: 6px;
+}
+
+.member .header .avatar {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid black;
+    margin: 5px;
+    width: 64px;
+    height: 64px;
+}
+
+.member .header .title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.member .header .title .nickname {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.member .header .title .role {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.member .bio {
+    display: none;
+    margin: 10px;
+}
+
+.member.expanded .bio {
+    display: block;
+}
