@@ -36,3 +36,23 @@ blockquote .author {
     margin: 15px;
     font-size: 14px;
 }
+
+.game-concept img {
+    margin: 20px 0;
+    border: 16px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.game-concept:nth-child(even) img {
+    z-index: 10;
+    transform: rotate(4deg);
+}
+
+.game-concept:nth-child(odd) img {
+    z-index: 5;
+    transform: rotate(-4deg);
+}
+
+.game-concept p {
+    font-size: 20px;
+}
